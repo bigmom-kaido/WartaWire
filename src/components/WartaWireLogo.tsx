@@ -1,0 +1,36 @@
+interface WartaWireLogoProps {
+  size?: number;
+  variant?: 'on-dark' | 'on-light';
+}
+
+export function WartaWireLogo({ size = 24 }: WartaWireLogoProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 32 32"
+      width={size}
+      height={size}
+      fill="none"
+      aria-hidden="true"
+      style={{ display: 'block', flexShrink: 0 }}
+    >
+      <rect width="32" height="32" fill="#0F62FE" />
+      <path
+        d="M4.5 12H7.25L9.35 20.5L11.7 12.5H14.3L16.65 20.5L18.75 12H21.5L18.25 25.5H15.25L13 17L10.75 25.5H7.75L4.5 12Z"
+        fill="#FFFFFF"
+      />
+      <path
+        d="M20.5 9.5A4 4 0 0 1 24.5 13.5"
+        stroke="#FFFFFF"
+        strokeWidth="2"
+        strokeLinecap="square"
+      />
+      <path
+        d="M20.5 6A7.5 7.5 0 0 1 28 13.5"
+        stroke="#D0E2FF"
+        strokeWidth="2"
+        strokeLinecap="square"
+      />
+    </svg>
+  );
+}

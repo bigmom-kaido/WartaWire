@@ -1,0 +1,6 @@
+{
+  "name": "WartaWire",
+  "description": "Agregator berita Indonesia ringkas dan padat informasi dari RSS resmi 7 media nasional dengan filter topik, filter media, pencarian, dan daftar bacaan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
